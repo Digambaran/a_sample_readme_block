@@ -1,0 +1,13 @@
+{
+  "name": "a_sample_readme_block",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/Digambaran/a_sample_readme_block",
+    "ssh": "git@github.com:Digambaran/a_sample_readme_block.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
